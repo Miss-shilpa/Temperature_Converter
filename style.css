@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Mulish",sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(246, 215, 185);
+    display: grid;
+    place-items: center;
+}
+form{
+    background-color: lightcoral;
+    padding: 100px;
+}
+
+#tempCalc label{
+    font-size: 30px;
+}
+#temp_diff{
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+#temp{
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+input[type=number]{
+    color: blueviolet;
+   
+}
+
+input[type=submit]{
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: solid black;
+    border-width: 2px;
+    font-size: 20px;
+    background-color: rgb(212, 161, 89);
+} 
